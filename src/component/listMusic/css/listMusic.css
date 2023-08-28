@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #ea2658;
+}
+
+.playlist {
+  margin: 0 8px;
+}
+
+.playlist__item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 4px 6px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.playlist__item.active {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.playlist__thumb {
+  margin-right: 10px;
+}
+.playlist__img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.playlist__songDetail {
+}
+.playlist__songName,
+.playlist__songSinger {
+  font-size: 12px;
+}
+
+.playlist__songName {
+  font-weight: 700;
+}
+.playlist__songSinger {
+}
